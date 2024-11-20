@@ -33,6 +33,7 @@ jobs:
         with:
           override: true
           target: wasm32-wasi
+          toolchain: stable
 
       - name: Rust Cache
         uses: Swatinem/rust-cache@v2.7.3
